@@ -1,0 +1,172 @@
+*{
+	background-color:#0B0201;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+	
+}
+
+.hero-image {
+	  background-image: url("../IMG/hamburguesa3.jpg");
+	  background-color: #cccccc;
+	  height: 300px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+
+}
+
+.hero-image2 {
+	  background-image: url("../IMG/birra.jpg");
+	  background-color: #cccccc;
+	  height: 300px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+}
+
+.hero-image3 {
+	  background-image: url("../IMG/birra.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+h2{
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 100px;
+}
+h3{
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding-top: 65px;
+	font-size: 40px;
+}
+
+button{
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding-top: 10px;
+	font-size: 38px;
+}
+
+a{
+    color: black;
+
+}
+
+a:hover{
+    color: black;
+}
+
+#pagina{
+	padding-bottom: 50px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background: #000000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+    background: -moz-linear-gradient(top, #000000, #000000);
+    background: linear-gradient(to bottom, #000000, #000000);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:active,
+.button:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 4px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADZElEQVRIibVVTWwbVRD+5gWlqzh2cHBVi9hYdn4aAthtc0gQzbbCNDJb+ULb3Dj0UDtSK8GBAwckUDlxygEOFb31UFUKVVoWceBQcQJRWvWAFCQqVbWUVJaTtokTx9m/NxzsNWvXTtKqjPbpzb7d983Mt9+bJQAC/6O54LLDc/ky/NYKxIv6lKOAyIuwd/2VZ3Jutj1nqlxQAjNTM7pP8YWv9lxNr8+tLwFAFwBqGWiztuOgHPln1Bk9lUipQX/wtQPBA9rDyMOb1d+rm24ACYA9Abz3O/qUI/9p9bSeTCRVhx3YbKPP3xcKBULag9cf3KA6V50+cicTAOS+8/sC2qSmJxNJlcGoXQxmBgDcX75/yw3w3EY56s2+l9XH4mMqgAaoJ8AjBqebKBr5eiQd1aIniq8W72IRsiMtefJn3s3oo7HRBi2OrM22tGGzXZIsT8y9P7fYUNHQxaEP1EPqTaVb6SGi7nvhe9/h22fV0n2+O3B8/Lg+GB1UDcdooqTurwJIX5q+tAjUVTR4cTB9NHV0oa+3z0eCsL9//4eWYa2WDpbu4LZHLXnyHxs/piciiUbmnqxhS/uJZDl9OXP5L5fJrvhX8fRkcnIh4Av0uhtIEELBUMYyrMcrb678iduQlCf/1PiUHo/Ea+CyBZztNUc6mSsnr9zxUto1/NHwN9Fw9JDDDhpDOiBB1B/s12zDflI+WP574vCEHhuIqW2yhinNsmSZuZa99oeHUgYAErOiZyI5MT8UG9K8KnDnqllF6XHpn4HwwIirFsMx8HT7KdaMNVSsSlmyPFnIF35rqzYAQuSFcuSdI/OJNxJaawB3dtjBSnUFxUoRG+aG+2E3BYns6oXVX+t43jMlAMj/DloOSurt1PVYJKbVYcHMMKWJpY0lLG8uw3Isb3JbgkS28mnlVrvMmyqoRxViVihjo2PzkYGIZksbhXIBhXIBlrRa920R0Sn5mfxlJ/DWALW6ZkVPLB6bL4qitm1vt9tjMvEpfI6fOtHi9dv3ohwUBHEdPmhE1FhmsAnCGXyBH3fL3DW3VXA9UO1Q3YWDt7AAwmEIDJMksGQTjI/xJW7gOVq5t9FJTyUS32ML6ziDTfzMNttwcBYGfmh6Z2/+Lt30HBR8gum9UtJqTSp6UZDd7KX99Nv5/wInbMxnBkB/vgAAAABJRU5ErkJggg==") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+.radio{
+	display: inline-block;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-bottom: 20px;
+}
+
+#texto{
+	padding-bottom: 20px;
+}
+
+#botonrojo{
+	margin-top: 20px;
+	margin-bottom:;
+}
+
+
+
+.checks{
+	display:inline;
+}
+
+.nos{
+	display:inline;
+	margin-left:59px;
+}
+
+
+body {
+  background-color: black;
+}
+
+
+h2{
+  color: white;
+  padding-top:80px;
+}
+
+#fa-times{
+  color: red;
+  font-size:35px;
+  margin-top:10px;
+  margin-left:25px;
+}
+
+#fa-check{
+  color: #69FC03;
+  font-size:35px;
+  margin-top:10px;
+  margin-left:25px;
+}
+
+.img-fluid{
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+p{
+  color: white;
+  font-size: 28px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+

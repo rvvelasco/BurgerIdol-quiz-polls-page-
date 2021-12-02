@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.radio-tile-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input-container {
+  position: relative;
+  height: 7rem;
+  width: 7rem;
+  margin: 0.5rem;
+}
+.input-container .radio-button {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+.input-container .radio-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 1rem;
+  transition: transform 300ms ease;
+}
+.input-container .icon svg {
+  fill: red;
+  width: 3rem;
+  height: 3rem;
+}
+.input-container .radio-tile-label {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: red;
+  margin-top:-30px;
+}
+.input-container .radio-button:checked + .radio-tile {
+  background-color: black;
+  border: 2px solid red;
+  color: black;
+  transform: scale(1.1, 1.1);
+}
+.input-container .radio-button:checked + .radio-tile .icon svg {
+  fill: red;
+  background-color: black;
+}
+.input-container .radio-button:checked + .radio-tile .radio-tile-label {
+  color: red;
+  background-color: black;
+}
+
+.radio-tile-group1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input-container1 {
+  position: relative;
+  height: 7rem;
+  width: 7rem;
+  margin: 0.5rem;
+}
+.input-container1 .radio-button {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+.input-container1 .radio-tile1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #69FC03;
+  border-radius: 5px;
+  padding: 1rem;
+  transition: transform 300ms ease;
+}
+.input-container1 .icon svg {
+  fill: #69FC03;
+  width: 3rem;
+  height: 3rem;
+}
+.input-container1 .radio-tile-label1 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #69FC03;
+  margin-top:-30px;
+}
+.input-container1 .radio-button:checked + .radio-tile1 {
+  background-color: black;
+  border: 2px solid #69FC03;
+  color: white;
+  transform: scale(1.1, 1.1);
+}
+.input-container1 .radio-button:checked + .radio-tile1 .icon svg {
+  fill: #69FC03;
+  background-color: black;
+}
+.input-container1 .radio-button:checked + .radio-tile1 .radio-tile-label {
+  color: #9FC03;
+  background-color: #079ad9;
+}
+h2{
+  color: white;
+  padding-top:80px;
+}
+
+#fa-times{
+  color: red;
+  font-size:35px;
+  margin-top:10px;
+  margin-left:25px;
+}
+
+#fa-check{
+  color: #69FC03;
+  font-size:35px;
+  margin-top:10px;
+  margin-left:25px;
+}
+
+.hero-image3 {
+    background-image: url("../IMG/hola.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hola{
+  color: black;
+  background-color: black;
+  border: black;
+}

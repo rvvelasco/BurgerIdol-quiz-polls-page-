@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html  lang="es">
+     <head>
+        <script src="https://kit.fontawesome.com/9b75147fe3.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="icon" href="ASSETS/IMG/manito.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="icon" href="ASSETS/IMG/manito.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+         <!-- Place favicon.ico in the root directory -->
+ 
+         <link rel="stylesheet" href="css/normalize.css">
+         <link rel="stylesheet" href="ASSETS/CSS/stars.css">
+     </head>
+     <body>
+ 
+         <!-- Add your site or application content here -->
+        <div class="container d-flex justify-content-center mt-100">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="POST" action="index_action.php">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h2 class="mt-1 text-center">Califica nuestro servicio:</h2>
+                        <div class="rating"> 
+                            <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5" title="Awesome - 5 stars"></label> 
+                            
+                            <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4" title="Pretty good - 4 stars"></label> 
+                            
+                            <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3" title="Meh - 3 stars"></label> 
+                             
+                            <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2" title="Kinda bad - 2 stars"></label> 
+                            
+                            <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1" title="Sucks big time - 1 star"></label> 
+                            
+                        </div>
+                        <button type="submit" class="btn btn-warning" id="enviar">Calcular</button>
+                    </div>
+                </div>
+            </form>    
+        </div>
+    </div>
+</div>
+         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+         <script src="js/plugins.js"></script>
+         <script src="js/main.js"></script>
+ 
+         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+         <script>
+             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+         </script>
+         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+     </body>
+ </html>

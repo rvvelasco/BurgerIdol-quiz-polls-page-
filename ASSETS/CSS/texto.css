@@ -1,0 +1,45 @@
+*{
+	background-color:#0B0201;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    margin-top: 25px;
+
+}
+
+input{
+	color: white;
+	margin-top: 20px;
+}
+
+
+button{
+	margin-top: 20px;
+}
+
+a{
+	color: black;
+}
+
+
+a:hover{
+	color: black;
+}
+
+h2{
+	color: white;
+	font-size:40px;
+}
+.hero-image4 {
+	  background-image: url("../IMG/birra2.jpg");
+	  background-color: #cccccc;
+	  height: 496px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	  margin-top:0px;
+}
+
+#testcom{
+    height: 150px;	
+}
